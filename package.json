@@ -1,0 +1,29 @@
+{
+  "name": "meiostate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/meiostate.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Jesse Shaffer <dajester2005@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "deepmerge": "^3.0.0",
+    "flyd": "^0.2.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "regenerator-runtime": "^0.13.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
